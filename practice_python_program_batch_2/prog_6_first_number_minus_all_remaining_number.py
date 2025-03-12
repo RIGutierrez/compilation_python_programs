@@ -12,4 +12,4 @@ for i in range(9):
     result -= numbers
    
 # print result
-print(result)
+print(f"The result is: {result}")
