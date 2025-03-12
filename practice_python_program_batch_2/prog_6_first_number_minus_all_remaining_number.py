@@ -7,6 +7,9 @@ result = inputs
 # loop for asking input 
 for i in range(9):
     numbers = int(input(f"Enter Number {i + 2}: "))
-    
-# subtract
+
+    # subtract
+    result -= numbers
+   
 # print result
+print(result)
