@@ -30,6 +30,6 @@ if numbers:
         elif frequency[num] == count:
             most_frequent.append(num)
 
-    print(most_frequent)
-    print(count)
 # print most frequent and how many times appeared
+    print(f"Most duplicates: {most_frequent}")
+    print(f"Appeared: [{count}] times")
