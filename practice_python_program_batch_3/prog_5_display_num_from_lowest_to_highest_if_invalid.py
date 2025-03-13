@@ -15,3 +15,6 @@ while True:
         break
 
 # sort numbers
+if numbers:
+    numbers.sort()
+    print(numbers)
