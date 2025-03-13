@@ -1,5 +1,17 @@
 # list to store value
-# ask user to input numbers
-# store number to numbers
-# break if invalid
+numbers = []
+
+while True:
+    try:
+
+        # ask user to input numbers
+        number = int(input("Please input a number: "))
+
+        # store number to numbers
+        numbers.append(number)
+
+    # break if invalid
+    except ValueError:
+        break
+
 # sort numbers
