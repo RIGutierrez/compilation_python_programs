@@ -3,7 +3,6 @@ numbers = []
 
 while True:
     try:
-
         # ask user to input numbers
         number = int(input("Please input a number: "))
 
