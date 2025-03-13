@@ -1,6 +1,6 @@
 # ask user to input 10 numbers using loop
-for number in range(10):
-    number = int(input(f"Enter number {number + 1}: "))
+number = [1,2,3,3,4,5,6,7,7,8,9,9]
+
 
 # new list for input appear only once
 unique_number = []
@@ -14,4 +14,3 @@ for element in number:
 # print no duplicate 
 
 print(unique_number)
-print(duplicate_number)
