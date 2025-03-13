@@ -14,5 +14,6 @@ for num in numbers:
     if num not in unique_numbers:
         unique_numbers.append(num)
 
-        # print numbers
-        print(num)
+# print numbers and keep first entry if duplicate
+for num in unique_numbers:
+    print(num)    
