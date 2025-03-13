@@ -6,5 +6,8 @@ input_number_two = int(input("Input Second Number: "))
 if input_number_one > input_number_two:
     # print the bigger number
     print("The larger number is:", input_number_one)
+elif input_number_one < input_number_two:
+    print("The larger number is:", input_number_two)
+    # print equal if number is same
 else:
-    print("The larger number is:", input_number_two)  
+    print("Both numbers are equal.")
