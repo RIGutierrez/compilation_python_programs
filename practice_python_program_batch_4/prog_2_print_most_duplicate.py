@@ -19,7 +19,17 @@ if numbers:
             frequency[num] += 1
         else:
             frequency[num] = 1
-            print(num)
-
+            
 # find most frequent number inputted
+    count = 0
+    most_frequent = []
+    for num in frequency:
+        if frequency[num] > count:
+            count = frequency[num]
+            most_frequent = [num]
+        elif frequency[num] == count:
+            most_frequent.append(num)
+
+    print(most_frequent)
+    print(count)
 # print most frequent and how many times appeared
