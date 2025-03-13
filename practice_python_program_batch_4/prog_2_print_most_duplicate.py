@@ -11,8 +11,15 @@ while True:
         print("Invalid input")
         break
 
+if numbers:
+    # count frequency of number inputted
+    frequency = {}
+    for num in numbers:
+        if num in frequency:
+            frequency[num] += 1
+        else:
+            frequency[num] = 1
+            print(num)
 
-
-# count frequency of number inputted
 # find most frequent number inputted
 # print most frequent and how many times appeared
