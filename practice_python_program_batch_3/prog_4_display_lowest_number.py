@@ -12,9 +12,9 @@ while True:
 
     # break if invalid
     except ValueError:
+        print("Invalid input")
         break
 
 # check lowest number   
 if numbers: 
-    print(min(numbers))
-
+    print(f"The lowest number inputted is: {min(numbers)}")
