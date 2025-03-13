@@ -1,20 +1,21 @@
 # list to store value
 numbers = []
 
-# ask user to input number
-for i in range(10):
-    number = int(input(f"Please input a number {i + 1}: ")) 
-    if number in numbers:
-        print("Duplicate")
-    else:
-        print("Unique")
-        numbers.append(number)
-    
+while True:
+    try:
+        # ask user to input number
+        number = int(input("Please input a number: "))
+
+        # checking if number is in numbers (list)
+        if number in numbers:
+            print("Duplicate")
+        else:
+            print("Unique")
+            
+    # program break if invalid input
+    except ValueError:
+        break
 
 
 
-
-
-
-# program break if invalid input
 
