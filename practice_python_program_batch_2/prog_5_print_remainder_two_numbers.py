@@ -1,6 +1,6 @@
 # ask user to input two numbers
-input_number_one = int(input("Input First Number:"))
-input_number_two = int(input("Input Second Number:"))
+input_number_one = int(input("Input First Number: "))
+input_number_two = int(input("Input Second Number: "))
 
 # check if inputted second number is not 0
 if input_number_two == 0:
@@ -12,7 +12,3 @@ else:
 
     #print remainder
     print(quotient_remainder)
-
-    
-
-
