@@ -18,3 +18,5 @@ while True:
 # check lowest number   
 if numbers: 
     print(f"The lowest number inputted is: {min(numbers)}")
+else:
+    print("No value inputted")
