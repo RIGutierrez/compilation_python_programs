@@ -7,5 +7,3 @@ while i <= 100:
     print(i)
     # increase by 2
     i += 2
-
-
