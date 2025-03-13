@@ -1,6 +1,6 @@
 # ask user to input two numbers
-input_number_one = int(input("Input First Number:"))
-input_number_two = int(input("Input Second Number:"))
+input_number_one = int(input("Input First Number: "))
+input_number_two = int(input("Input Second Number: "))
 
 # check if second number is 0
 if input_number_two == 0:
