@@ -9,6 +9,3 @@ if input_number_one != input_number_two:
 else:
     # if same, print "Equal"
     print("Equal")
-    
-
-
